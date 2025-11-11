@@ -309,60 +309,57 @@ local RayfieldLibrary = {
 		},
 
 DustyRose = {
-	-- Warna Aksen Utama: Pink Tua (Fuchsia/Rose)
-	-- Warna Latar Belakang Utama & Sekunder: Pink Gelap & Pink Muda yang Lebih Jelas
-
 	-- Teks dan Latar Belakang Utama
-	TextColor = Color3.fromRGB(240, 240, 240),      -- Teks: Putih bersih
+	TextColor = Color3.fromRGB(255, 255, 255),      -- Teks: Putih (lebih cerah)
 	
-	-- PERUBAHAN UTAMA UNTUK PANAH PUTIH: Background utama kini Pink yang lebih jelas
-	Background = Color3.fromRGB(50, 40, 50),        -- Latar Belakang: Pink gelap keunguan (lebih terang dari sebelumnya)
-	Topbar = Color3.fromRGB(65, 55, 65),            -- Topbar: Sedikit lebih terang dari Background
-	Shadow = Color3.fromRGB(30, 25, 30),            -- Bayangan gelap
+	-- PERBAIKAN 1: Background Utama JAUH lebih terang dan Pink
+	Background = Color3.fromRGB(90, 75, 100),       -- Latar Belakang: Pink Muda Kebiruan (Lilac/Mauve)
+	Topbar = Color3.fromRGB(110, 95, 120),          -- Topbar: Sedikit lebih terang
+	Shadow = Color3.fromRGB(60, 50, 70),            -- Bayangan
 
 	-- Notifikasi
-	NotificationBackground = Color3.fromRGB(70, 60, 70),
-	NotificationActionsBackground = Color3.fromRGB(90, 80, 90),
+	NotificationBackground = Color3.fromRGB(120, 105, 130),
+	NotificationActionsBackground = Color3.fromRGB(150, 135, 160),
 
 	-- Tab Menu
-	TabBackground = Color3.fromRGB(80, 70, 80),             -- Latar Belakang Tab: Pink muda keabu-abuan
-	TabStroke = Color3.fromRGB(100, 90, 100),
+	TabBackground = Color3.fromRGB(130, 115, 140),          -- Latar Belakang Tab: Pink muda
+	TabStroke = Color3.fromRGB(160, 145, 170),
 	TabBackgroundSelected = Color3.fromRGB(220, 40, 140),   -- Tab Terpilih: Pink Tua / Fuchsia sebagai Aksen
-	TabTextColor = Color3.fromRGB(200, 200, 200),
+	TabTextColor = Color3.fromRGB(220, 220, 220),
 	SelectedTabTextColor = Color3.fromRGB(255, 255, 255),   -- Teks Tab Terpilih: Putih
 
 	-- Elemen Umum (Tombol, kotak, dll.)
-	ElementBackground = Color3.fromRGB(95, 85, 95),         -- Warna tombol/elemen: Pink muda/abu-abu
-	ElementBackgroundHover = Color3.fromRGB(120, 110, 120), -- Sedikit terang saat di-hover
-	SecondaryElementBackground = Color3.fromRGB(80, 70, 80), 
+	ElementBackground = Color3.fromRGB(140, 125, 150),      -- Warna tombol/elemen: Pink muda/lilac
+	ElementBackgroundHover = Color3.fromRGB(170, 155, 180), -- Sedikit terang saat di-hover
+	SecondaryElementBackground = Color3.fromRGB(130, 115, 140), 
 	ElementStroke = Color3.fromRGB(220, 40, 140),           -- Garis luar: Pink Tua Aksen
-	SecondaryElementStroke = Color3.fromRGB(110, 100, 110),
+	SecondaryElementStroke = Color3.fromRGB(160, 145, 170),
 
 	-- Slider
-	SliderBackground = Color3.fromRGB(70, 60, 70),
+	SliderBackground = Color3.fromRGB(120, 105, 130),
 	SliderProgress = Color3.fromRGB(240, 60, 160),          -- Progres Slider: Pink Tua yang lebih cerah
 	SliderStroke = Color3.fromRGB(255, 80, 180),
 
 	-- Toggle (On/Off)
-	ToggleBackground = Color3.fromRGB(95, 85, 95),
+	ToggleBackground = Color3.fromRGB(140, 125, 150),
 	ToggleEnabled = Color3.fromRGB(220, 40, 140),           -- Aktif: Pink Tua Aksen
-	ToggleDisabled = Color3.fromRGB(70, 60, 70),            -- Nonaktif: Gelap
-	-- PERUBAHAN UNTUK PANAH MERAH: Stroke toggle jadi putih
+	ToggleDisabled = Color3.fromRGB(120, 105, 130),         -- Nonaktif: Pink sedang
+	-- PERBAIKAN 2: Stroke toggle tetap Putih
 	ToggleEnabledStroke = Color3.fromRGB(255, 255, 255),    -- Garis luar Toggle ON: PUTIH
 	ToggleDisabledStroke = Color3.fromRGB(255, 255, 255),   -- Garis luar Toggle OFF: PUTIH
 	ToggleEnabledOuterStroke = Color3.fromRGB(180, 30, 100), 
-	ToggleDisabledOuterStroke = Color3.fromRGB(60, 50, 60),
+	ToggleDisabledOuterStroke = Color3.fromRGB(110, 95, 120),
 
 	-- Dropdown
 	DropdownSelected = Color3.fromRGB(150, 30, 90),         -- Pink Tua
-	DropdownUnselected = Color3.fromRGB(80, 70, 80),        -- Pink muda/abu-abu
+	DropdownUnselected = Color3.fromRGB(130, 115, 140),     -- Pink muda
 
 	-- Input Teks
-	InputBackground = Color3.fromRGB(65, 55, 65),
+	InputBackground = Color3.fromRGB(90, 75, 100),
 	InputStroke = Color3.fromRGB(220, 40, 140),             -- Garis luar input: Pink Tua Aksen
-	PlaceholderColor = Color3.fromRGB(150, 140, 150)
+	PlaceholderColor = Color3.fromRGB(180, 170, 190)
 },
-   
+  
         Cyber = {
 	-- Teks dan Latar Belakang Utama
 	TextColor = Color3.fromRGB(0, 255, 180),  -- Teks Neon (Menggunakan TextColor Anda)
